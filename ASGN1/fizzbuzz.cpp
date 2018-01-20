@@ -1,5 +1,12 @@
 #include <iostream>
 
+/**
+ * The main function of fizzbuzz.
+ * Which pritns numbers between 1 and 100
+ * if the number is multiple of 3, prints "Fizz"
+ * if the number is multiple of 5, prints "Buzz"
+ * if the number is mutiple of both 3 and 5, prints "FizzBuzz"
+ */
 int main() {
 
     for(int i = 1; i <= 100; i++) {
