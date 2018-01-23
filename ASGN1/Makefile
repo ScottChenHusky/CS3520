@@ -16,4 +16,4 @@ frame: frame.cpp
 	g++ frame.cpp -o frame
 
 clean:
-	rm fizzbuzz fib sum reverse frame
+	rm -f fizzbuzz fib sum reverse frame
