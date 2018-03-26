@@ -11,6 +11,9 @@
 #include "LinkedList.cpp"
 
 int main(int argc, const char * argv[]) {
+
+    LinkedList<int> list(3);
+    std::cout << list.size() << std::endl;
     
     return 0;
 }

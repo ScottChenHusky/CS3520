@@ -33,7 +33,7 @@ public:
     T& operator[] (int idx);
     
 private:
-    T value = NULL;
+    T value;
     LinkedList* next = NULL;
 };
 
