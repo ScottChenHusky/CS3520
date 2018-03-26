@@ -32,7 +32,7 @@ public:
     T& at(int idx);
     T& operator[] (int idx);
     
-public:
+private:
     T value = NULL;
     LinkedList* next = NULL;
 };
