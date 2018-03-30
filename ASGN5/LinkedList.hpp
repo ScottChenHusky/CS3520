@@ -15,7 +15,6 @@ template <class T>
 class LinkedList {
 public:
     LinkedList();
-    ~LinkedList();
     LinkedList(T value);
     LinkedList(const LinkedList& other);
     LinkedList& operator= (const LinkedList& other);
@@ -33,6 +32,7 @@ public:
     T& operator[] (int idx);
     
 private:
+    int length;
     T value;
     LinkedList* next = NULL;
 };
